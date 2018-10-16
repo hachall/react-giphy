@@ -11,6 +11,7 @@ module.exports = {
       template: '!!html-loader!templates/index.html'
     })
   ],
+  performance: { hints: false },
   devtool: 'sourcemap',
   module: {
     rules: [
